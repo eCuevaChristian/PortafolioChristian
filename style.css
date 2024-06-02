@@ -94,12 +94,15 @@ section.menu{
 /* links de redes abajo de mi descrip*/
 .title__network{
     display: flex;
+    flex-direction: row;
+    padding: 0;
     gap: 40px;
+    justify-content: start;   
+    
 }
 
 .about{
     padding:  20px 10%;
-    /* cambiosA */
 }
 
 /*Tablet*/
