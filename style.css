@@ -36,7 +36,7 @@ section.menu{
     display: flex;
     justify-content: space-between;
     padding:  30px 9%;
-    background-color: #8bb8aa;
+    background-color: #86b484;
     gap: 0px;
 }
 .menu__header{
@@ -87,7 +87,7 @@ section.menu{
 
 .title__container h2 {
     font-size: var(--font-size-h2); /* Usar tamaño responsivo para h2 */
-    color: #464646;
+    color: #546d5c;
 }
 
 /* links de redes abajo de mi descrip*/
@@ -103,6 +103,7 @@ section.menu{
 .about{
     display: flex;
     padding:  20px 9%;
+    background-color: #b7ceb6;
 }
 .about__title{
     text-align: center;
@@ -119,8 +120,7 @@ section.menu{
 
 .skills{
     padding:  20px 9%;
-    background-color: aquamarine;
-
+    background-color: #dce9e5f4;
 }
 .skills__title{
     text-align: center;
@@ -135,13 +135,49 @@ section.menu{
 }
 
 .skills__box{
-    height: 24vh;
-    width: 25vh;
+    height: 23vh;
+    width: 10vw;
     background-color: #ffffff;
+    box-shadow: 0 0 2px #1825bc;
+    border-radius: 4%;
     text-align: start;
     align-content: end;
+    padding: 0 1%;
 }
 .skills__box ul{
+    padding: 0 5%;
+}
+
+/* ---------------------------------------------------------------- */
+
+.hobbies{
+    padding:  20px 9%;
+    background-color:  #dce9e5f4;
+}
+
+.hobbies__title{
+    text-align: center;
+    font-size: 4vh;
+}
+
+.hobbies__line{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hobbies__box{
+    height: 23vh;
+    width: 10vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px #1825bc;
+    border-radius: 4%;
+    text-align: start;
+    align-content: end;
+    padding: 0 1%;
+}
+.hobbies__box ul{
     padding: 0 5%;
 }
 
@@ -171,7 +207,7 @@ section.menu{
 }
 
 .skills__box{
-    width: 25vw;
+    width: 23vw;
     height: 19vh;
 }
 }
@@ -179,7 +215,11 @@ section.menu{
 /*Mobile*/
 @media (max-width: 700px) {
     .skills__box{
-        width: 36vw;
+        width: 34vw;
         height: 20vh;
     }
+
+    .title__profile {
+        width: 40vw;
+        }
 }
