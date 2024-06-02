@@ -181,6 +181,13 @@ section.menu{
     padding: 0 5%;
 }
 
+/* ---------------------------------------------------------------------------- */
+
+.experience__section__title{
+    text-align: center;
+}
+
+
 /*Tablet*/
 @media (max-width: 1440px) {
 
@@ -208,11 +215,11 @@ section.menu{
 
 .skills__box{
     width: 23vw;
-    height: 10vh;
+    height: 1vh;
 }
 .hobbies__box{
     width: 23vw;
-    height: 10vh;
+    height: 15vh;
 }
 }
 
@@ -220,7 +227,7 @@ section.menu{
 @media (max-width: 768px) {
     .skills__box{
         width: 34vw;
-        height: 29vh;
+        height: 20vh;
     }
     .hobbies__box{
         width: 34vw;
