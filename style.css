@@ -64,7 +64,7 @@ section.menu{
 
 /*segunda division nombre*/
 .title__profile {
-    width: 300px;
+    width: 30%;
     position: relative;
     font-size: var(--font-size-profile); /* Usar tamaño responsivo para texto en title__profile */
 }
@@ -76,7 +76,7 @@ section.menu{
     flex-direction: row-reverse;
     gap: 50px;
     justify-content: space-between;
-    padding:  30px 10%;
+    padding:  20px 10%;
     background-color: #ffffff;
 }
 
@@ -97,7 +97,9 @@ section.menu{
     gap: 40px;
 }
 
-
+.about{
+    padding:  20px 10%;
+}
 
 /*Tablet*/
 @media (max-width: 1000px) {
