@@ -182,7 +182,7 @@ section.menu{
 }
 
 /*Tablet*/
-@media (max-width: 1000px) {
+@media (max-width: 1440px) {
 
     section.menu{
         padding: 10px;
@@ -208,13 +208,21 @@ section.menu{
 
 .skills__box{
     width: 23vw;
-    height: 19vh;
+    height: 10vh;
+}
+.hobbies__box{
+    width: 23vw;
+    height: 10vh;
 }
 }
 
 /*Mobile*/
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .skills__box{
+        width: 34vw;
+        height: 19vh;
+    }
+    .hobbies__box{
         width: 34vw;
         height: 20vh;
     }
