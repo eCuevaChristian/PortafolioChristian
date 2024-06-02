@@ -10,7 +10,7 @@ coloque nas sessões indicadas*/
    --cor-de-fundo: #c0d4e7e3;
    --cor-de-link: #000;
    --cor-de-abautme:#EAF2FD;
-   --font-size-h2: clamp(1.5rem, 2.5vw, 3rem); /* Tamaño responsivo para h2 */
+   --font-size-h2: clamp(1.5rem, 2.5vw, 3rem);
    --font-size-profile: clamp(1rem, 2vw, 1.5rem);
 }
 
@@ -35,8 +35,9 @@ a{
 section.menu{
     display: flex;
     justify-content: space-between;
-    padding:  30px 10%;
+    padding:  30px 9%;
     background-color: #8bb8aa;
+    gap: 0px;
 }
 .menu__header{
     display: flex;     
@@ -45,8 +46,7 @@ section.menu{
 }
 
 .estrellita{
-    width: 25px;
-    height: 25px;
+    width: 10%;
     align-self: auto;
 }
 
@@ -73,9 +73,9 @@ section.menu{
 .title__div{
     display: flex;
     flex-direction: row-reverse;
-    gap: 50px;
+    gap: 5%;
     justify-content: space-between;
-    padding:  20px 10%;
+    padding:  20px 9%;
     background-color: #ffffff;
 }
 
@@ -102,7 +102,7 @@ section.menu{
 
 .about{
     display: flex;
-    padding:  20px 10%;
+    padding:  20px 9%;
 }
 .firma{
     text-align: end;
@@ -129,6 +129,9 @@ section.menu{
     align-items: center;
     text-align: center;
     gap: 20px;
+}
+.title__container{
+    font-size: 2vw;
 }
 
 }
