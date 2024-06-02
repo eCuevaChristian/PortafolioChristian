@@ -10,15 +10,17 @@ coloque nas sessões indicadas*/
    --cor-de-fundo: #c0d4e7e3;
    --cor-de-link: #000;
    --cor-de-abautme:#EAF2FD;
+   --font-size-h2: clamp(1.5rem, 2.5vw, 3rem); /* Tamaño responsivo para h2 */
+   --font-size-profile: clamp(1rem, 2vw, 1.5rem);
 }
 
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
     font-family: 'Raleway';
+    padding: 0;
     margin: 0;
-    padding: 0 10%;
-    line-height: 1;
+    min-height: 100vh;
 }
 ol, ul,li {
     list-style: none;
@@ -33,12 +35,14 @@ a{
 section.menu{
     display: flex;
     justify-content: space-between;
-    margin: 30px 0px;
+    padding:  30px 10%;
+    background-color: #8bb8aa;
 }
 .menu__header{
     display: flex;     
     gap: 20px;
     align-items: center;
+    
 }
 
 .estrellita{
@@ -58,108 +62,63 @@ section.menu{
 }
 
 
-/*Sección Title*/
+/*segunda division nombre*/
+.title__profile {
+    width: 300px;
+    position: relative;
+    font-size: var(--font-size-profile); /* Usar tamaño responsivo para texto en title__profile */
+}
+
+
 
 .title__div{
     display: flex;
     flex-direction: row-reverse;
-    gap: 40px;
+    gap: 50px;
+    justify-content: space-between;
+    padding:  30px 10%;
+    background-color: #ffffff;
 }
 
+/* texto en el contenedor */
 .title__container{
     align-content: space-around;
+    flex-wrap: wrap;
 }
 
-.title__profile{
-    width: 250px;
-    position: relative;
+.title__container h2 {
+    font-size: var(--font-size-h2); /* Usar tamaño responsivo para h2 */
+    color: #464646;
 }
 
-
+/* links de redes abajo de mi descrip*/
 .title__network{
     display: flex;
     gap: 40px;
 }
 
-/*Sección About*/
-
-section.about{
-
-}
-
-/*Sección Hobbies*/
-
-section.hobbies{
-    
-}
-
-/* Experiencia Académica*/
-
-section.academic{
-
-}
-
-/* experiencia*/
-
-section.experience{
-
-}
-
-/*Contacto*/
-
-section.formcontato{
-
-}
-
-/*footeer*/
-
-section.footer{
-   
-}
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
 /* Menú */
 .menu__list__item{
     display: none;
-    min-width: none;
+    
 }
-/*title*/
 
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
+.title__div{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
 
 }
 
 /*Mobile*/
-@media (min-width: 500px) {
+@media (max-width: 700px) {
 
-/*Menu*/
-
-/*Titulo*/
-
-/*Sección sobre mi*/
-
-/*Skills*/
-
-/*Hobbies*/
- 
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
- /*Contacto*/
-
-/*Footer*/
 
 }
