@@ -41,8 +41,7 @@ section.menu{
 .menu__header{
     display: flex;     
     gap: 20px;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .estrellita{
@@ -102,11 +101,22 @@ section.menu{
 }
 
 .about{
+    display: flex;
     padding:  20px 10%;
+}
+.firma{
+    text-align: end;
+    width: 10%;
 }
 
 /*Tablet*/
 @media (max-width: 1000px) {
+
+    section.menu{
+        padding: 10px;
+        font-size: 2vw;
+        justify-content: space-evenly;
+    }
 
 /* Menú */
 .menu__list__item{
@@ -125,6 +135,5 @@ section.menu{
 
 /*Mobile*/
 @media (max-width: 700px) {
-
-
+    
 }
