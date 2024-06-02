@@ -185,6 +185,25 @@ section.menu{
 
 .experience__section__title{
     text-align: center;
+    font-size: 4vh;
+}
+
+.experience{
+    padding: 20px 9%;
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+}
+
+.experiencie__box{
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+.experience__img{
+    width: 40vw;
 }
 
 
@@ -215,7 +234,7 @@ section.menu{
 
 .skills__box{
     width: 23vw;
-    height: 1vh;
+    height: 15vh;
 }
 .hobbies__box{
     width: 23vw;
@@ -231,7 +250,7 @@ section.menu{
     }
     .hobbies__box{
         width: 34vw;
-        height: 29vh;
+        height: 20vh;
     }
 
     .title__profile {
