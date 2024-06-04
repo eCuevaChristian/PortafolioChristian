@@ -193,6 +193,7 @@ section.menu{
     display: flex;
     flex-direction: column;
     gap: 8vh;
+    background-color: #b7ceb6;
 }
 
 .experiencie__box{
@@ -205,6 +206,47 @@ section.menu{
 .experience__img{
     width: 40vw;
 }
+
+.formcontato__contacto{
+    background-color: #dce9e5f4;
+    padding: 30px 10%;
+    display: flex;
+    gap: 30px;
+}
+
+.formcontato__img{
+    width: 30vw;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;   
+}
+
+.formcontato__input{
+    padding: 2vh;
+    border: none;
+}
+
+.formcontato__botao{
+    padding: 2vh;
+    border: none;
+    background-color: #2A7AE4;
+    color: #ffffff;
+    width: 25vw;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+
+
 
 
 /*Tablet*/
@@ -239,6 +281,10 @@ section.menu{
 .hobbies__box{
     width: 23vw;
     height: 15vh;
+}
+
+.formcontato__img{
+    display: none;
 }
 }
 
